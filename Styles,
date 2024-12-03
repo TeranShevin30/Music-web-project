@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+.col {
+  color: #00bfff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 1rem 2rem;
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-nav .active .nav-link {
+  color: #007bff !important;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("Photos/acoustic-guitar-072.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
+  height: 45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #007bff;
+  border-radius: 30px;
+}
+
+.hero .btn:hover {
+  background-color: #00bfff;
+  color: #fff;
+}
+
+/* Learn Section */
+#Learn {
+  margin: 4rem 0;
+  padding: 2rem 0;
+}
+
+#Learn h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.card .btn {
+  background-color: #007bff;
+  color: white;
+  border-radius: 30px;
+}
+
+.card .btn:hover {
+  background-color: #00bfff;
+  color: white;
+}
+
+/* Carousel Section */
+#About {
+  margin: 4rem 0;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  height: 400px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: none;
+}
+
+/* Contact Section */
+#Contact {
+  margin: 4rem 0;
+  padding: 3rem 0;
+  background-color: #f1f3f5;
+}
+
+#Contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.vector .card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.vector .card:hover {
+  transform: scale(1.05);
+}
+
+.vector .card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.vector .card-body {
+  text-align: center;
+}
+
+.vector .card-title {
+  font-size: 1.5rem;
+}
+
+.vector .card-footer {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    height: 30rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .card-img-top {
+    height: 150px;
+  }
+}

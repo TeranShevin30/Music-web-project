@@ -14,16 +14,26 @@
   </head>
   <body>
     <!--navigation bar-->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-      <a class="navbar-brand">RhythmWave</a>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm"
+    >
+      <a class="navbar-brand" href="#">RhythmWave</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#Home">Home</a>
+            <a class="nav-link" href="#Home">Home</a>
           </li>
-          <!--<li class="nav-item">
-            <a class="nav-link" href="#Music"></a>
-          </li>-->
           <li class="nav-item">
             <a class="nav-link" href="#Learn">Learn</a>
           </li>
@@ -34,12 +44,24 @@
             <a class="nav-link" href="#Contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Signup.html">Sign up</a>
+            <a class="nav-link" href="Signup.html">Sign Up</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Login.html">Log in</a>
+            <a class="nav-link" href="Login.html">Log In</a>
           </li>
         </ul>
+        <form class="d-flex ms-3" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-primary" type="submit">
+            <span class="material-icons">Go</span>
+            <i class="material-symbols-outlined"></i>
+          </button>
+        </form>
       </div>
     </nav>
     <section id="Home">
@@ -58,50 +80,44 @@
     </header>
 
     <section class="container my-5" id="Learn">
-      <h2>Master Your Talents</h2>
+      <h2 class="text-center mb-5">Master Your Talents</h2>
       <div class="row">
-        <!-- Vocals -->
         <div class="col-md-4 mb-4">
-          <div class="card">
-            <img
-              src="Photos/Singing.jpg"
-              class="card-img-top"
-              alt="Song Title"
-            />
+          <div class="card shadow-sm">
+            <img src="Photos/Singing.jpg" class="card-img-top" alt="Vocals" />
             <div class="card-body">
               <h5 class="card-title">Vocals</h5>
-
+              <p class="card-text">
+                Learn to master your singing skills with expert lessons.
+              </p>
               <a href="#" class="btn btn-primary">Go</a>
             </div>
           </div>
         </div>
-        <!-- Practices -->
         <div class="col-md-4 mb-4">
-          <div class="card">
-            <img
-              src="Photos/Guitar.jpg"
-              class="card-img-top"
-              alt="Song Title 2"
-            />
+          <div class="card shadow-sm">
+            <img src="Photos/Guitar.jpg" class="card-img-top" alt="Practices" />
             <div class="card-body">
               <h5 class="card-title">Practices</h5>
-
+              <p class="card-text">
+                Perfect your instrument skills through interactive practices.
+              </p>
               <a href="#" class="btn btn-primary">Go</a>
             </div>
           </div>
         </div>
-
-        <!-- Listenings -->
         <div class="col-md-4 mb-4">
-          <div class="card">
+          <div class="card shadow-sm">
             <img
               src="Photos/Listening.jpeg"
               class="card-img-top"
-              alt="Song Title 3"
+              alt="Listening"
             />
             <div class="card-body">
               <h5 class="card-title">Listening</h5>
-
+              <p class="card-text">
+                Enhance your listening skills with a variety of music genres.
+              </p>
               <a href="#" class="btn btn-primary">Go</a>
             </div>
           </div>
@@ -202,34 +218,50 @@
       </div>
     </section>
     <footer class="bg-light text-center py-4">
-      <p>&copy; All rights reserved.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled">
+              <li>Email: contact@rhythmwave.com</li>
+              <li>Phone: (123) 456-7890</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>
+              RhythmWave is an innovative online platform offering seamless
+              music discovery, streaming, and social interaction. It empowers
+              independent artists to share their work, while providing users
+              with personalized music experiences.
+
+              <!--RhythmWave is your ultimate destination for all things music, from
+              learning to listening and beyond!-->
+            </p>
+          </div>
+        </div>
+        <hr />
+        <p>&copy; 2024 RhythmWave. All Rights Reserved.</p>
+      </div>
     </footer>
+
     <script src="JS/Script.js"></script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

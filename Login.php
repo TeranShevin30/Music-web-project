@@ -17,7 +17,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="Index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="Index.php">Home</a>
           </li>
           <!--<li class="nav-item">
             <a class="nav-link" href="#Music"></a>

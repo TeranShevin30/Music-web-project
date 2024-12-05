@@ -1,145 +1,148 @@
 .formi {
-    display: block;
-    box-sizing: border-box;
-    padding: 40px;
-    width: 100%;
-    height: 100%;
-    background: url(Mroom.jpg);
-    backdrop-filter: brightness(40%);
-    display: flex;
-    gap: 5px;
-  }
-  
-  .form-content {
-    border: 1px solid black;
-    width: 400px;
-    height: 500px;
-    background: url(Flower.jpg);
-    color: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
-    background-size: cover;
-  }
-  .signhead {
-    text-align: center;
-    text-size-adjust: 2px;
-  }
-  
-  /* Body and page settings */
-  body {
-    font-family: Arial, sans-serif;
-    background-image: url(Mroom.jpg);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-  .box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Navbar styling */
-  .navbar {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #5b9bd5;
-  }
-  
-  /* Signup form styling */
-  .form-content {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-    margin-top: 80px;
-  }
-  
-  .signhead {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #8600a1;
-  }
-  
-  .input,
-  .password {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  .password {
-    position: relative;
-  }
-  
-  .eye-icon {
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    cursor: pointer;
-  }
-  
-  .button-field button {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    background-color: #5b9bd5;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .button-field button:hover {
-    background-color: #3b7db1;
-  }
-  
-  .form-link {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .form-link .login-link {
-    color: #5b9bd5;
-    text-decoration: none;
-  }
-  
-  .form-link .login-link:hover {
-    text-decoration: underline;
-  }
-  
-  /* Social Media Login buttons */
-  .social-media {
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .media-options {
-    margin: 10px 0;
-  }
-  
-  .btn-facebook,
-  .btn-google {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    background-color: #3b5998;
-    color: #fff;
-    border: none;
-    border-radius: 10%;
-  }
-  
+  display: block;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  background: url(Mroom.jpg);
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(40%);
+  display: flex;
+  gap: 5px;
+}
+
+.form-content {
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  background: url(Flower.jpg);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  background-size: cover;
+}
+.signhead {
+  text-align: center;
+  text-size-adjust: 2px;
+}
+
+/* Body and page settings */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(Mroom.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navbar styling */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5b9bd5;
+}
+
+/* Signup form styling */
+.form-content {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.signhead {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #8600a1;
+}
+
+.input,
+.password {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.password {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.button-field button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #5b9bd5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-field button:hover {
+  background-color: #3b7db1;
+}
+
+.form-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-link .login-link {
+  color: #5b9bd5;
+  text-decoration: none;
+}
+
+.form-link .login-link:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Login buttons */
+.social-media {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.media-options {
+  margin: 10px 0;
+}
+
+.btn-facebook,
+.btn-google {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #3b5998;
+  color: #fff;
+  border: none;
+  border-radius: 10%;
+}

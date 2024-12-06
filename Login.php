@@ -57,7 +57,7 @@
           <div class="form-link">
             <span
               >Don't have an account?
-              <a href="Signup.html" class="link login-link">Sign In</a></span
+              <a href="Signup.php" class="link login-link">Sign In</a></span
             >
           </div>
         </div>

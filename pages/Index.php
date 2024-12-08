@@ -84,7 +84,7 @@
       <div class="row">
         <div class="col-md-4 mb-4">
           <div class="card shadow-sm">
-            <img src="Photos/Singing.jpg" class="card-img-top" alt="Vocals" />
+            <img src="../Photos/Singing.jpg" class="card-img-top" alt="Vocals" />
             <div class="card-body">
               <h5 class="card-title">Vocals</h5>
               <p class="card-text">
@@ -96,7 +96,7 @@
         </div>
         <div class="col-md-4 mb-4">
           <div class="card shadow-sm">
-            <img src="Photos/Guitar.jpg" class="card-img-top" alt="Practices" />
+            <img src="../Photos/Guitar.jpg" class="card-img-top" alt="Practices" />
             <div class="card-body">
               <h5 class="card-title">Practices</h5>
               <p class="card-text">
@@ -109,7 +109,7 @@
         <div class="col-md-4 mb-4">
           <div class="card shadow-sm">
             <img
-              src="Photos/Listening.jpeg"
+              src="../Photos/Listening.jpeg"
               class="card-img-top"
               alt="Listening"
             />

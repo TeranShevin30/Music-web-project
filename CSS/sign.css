@@ -146,3 +146,7 @@ body {
   border: none;
   border-radius: 10%;
 }
+.google-img {
+  width: 20px;
+  margin-right: 10px;
+}

@@ -133,13 +133,13 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Photos/Guitar.jpg" class="d-block w-100" alt="..." />
+            <img src="../Photos/Guitar.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="Photos/Music03.jpg" class="d-block w-100" alt="..." />
+            <img src="../Photos/Music03.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="Photos/3D-Music.jpg" class="d-block w-100" alt="..." />
+            <img src="../Photos/3D-Music.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -169,7 +169,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
-              <img src="Photos/P1.jpg" class="card-img-top" alt="..." />
+              <img src="../Photos/P1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -185,7 +185,7 @@
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="Photos/P2.webp" class="card-img-top" alt="..." />
+              <img src="../Photos/P2.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -200,7 +200,7 @@
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="Photos/P3.jpg" class="card-img-top" alt="..." />
+              <img src="../Photos/P3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">

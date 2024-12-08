@@ -7,7 +7,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="CSS/login.css" />
+    <link rel="stylesheet" href="../CSS/login.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
@@ -70,7 +70,7 @@
         </div>
         <div class="media-options">
           <a href="#" class="field google">
-            <img src="images/google.png" alt="Google" class="google-img" />
+            <img src="../Photos/google.png" alt="Google" class="google-img" />
             <span>Login with Google</span>
           </a>
         </div>

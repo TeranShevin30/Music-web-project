@@ -99,7 +99,7 @@ form button:hover {
 
 /* Hero Section */
 .hero {
-  background-image: url("Photos/acoustic-guitar-072.jpg");
+  background-image: url("../Photos/acoustic-guitar-072.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

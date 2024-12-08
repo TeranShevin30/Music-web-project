@@ -4,7 +4,7 @@
   padding: 40px;
   width: 100%;
   height: 100%;
-  background-image: url(Mroom.jpg);
+  background-image: url(../Photos/Mroom.jpg);
   backdrop-filter: brightness(40%);
   display: flex;
   gap: 5px;
@@ -14,7 +14,7 @@
   border: 1px solid black;
   width: 400px;
   height: 500px;
-  background: url(Flower.jpg);
+  background: url(../Photos/Flower.jpg);
   background-repeat: no-repeat;
   color: white;
   border-radius: 20px;
@@ -29,7 +29,7 @@
 /* Body and page settings */
 body {
   font-family: Arial, sans-serif;
-  background-image: url(Mroom.jpg);
+  background-image: url(../Photos/Mroom.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

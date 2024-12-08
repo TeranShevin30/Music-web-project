@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Website</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="Styles.css" />
+    <link rel="stylesheet" href="../CSS/Styles.css" />
     <!-- Custom CSS -->
     <link
       rel="stylesheet"

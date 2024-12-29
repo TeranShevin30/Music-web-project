@@ -47,6 +47,13 @@
             </div>
             <div class="field input-field">
               <input
+                type="Regno"
+                placeholder="Registration number"
+                class="input"
+              />
+            </div>
+            <div class="field input-field">
+              <input
                 type="password"
                 placeholder="Create password"
                 class="password"

@@ -247,7 +247,7 @@ form button:hover {
 
 /* Footer Styles */
 footer {
-  background-color: #f8f9fa;
+  background-color: #26303a;
   padding: 40px 0;
 }
 
@@ -262,7 +262,7 @@ footer .list-unstyled {
 }
 
 footer .list-unstyled a {
-  color: #343a40;
+  color: #72b2f2;
   text-decoration: none;
   margin-bottom: 10px;
   display: block;
@@ -276,7 +276,7 @@ footer .list-unstyled a:hover {
 
 footer p {
   font-size: 1rem;
-  color: #6c757d;
+  color: #a0bbd2;
 }
 
 footer hr {

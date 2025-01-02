@@ -1,0 +1,8 @@
+apache2ctl start
+mysql -h 127.0.0.0 -P 3306 -u root -p
+create database musicdb;
+exit;
+mysql -h 127.0.0.0 -P 3306 -u root -p musicdb < musicdb.sql
+
+
+

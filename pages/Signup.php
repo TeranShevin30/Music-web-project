@@ -37,7 +37,7 @@
       <div class="">
         <div class="form-content">
           <header class="signhead">Sign up</header>
-          <form action=" " method="post">
+          <form action=" " method="POST">
             <div class="field input-field">
               <input
                 type="email"
@@ -105,6 +105,8 @@
 
 
     <?php
+
+      require_once '';
 
       
     

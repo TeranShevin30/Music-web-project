@@ -73,38 +73,14 @@
             </div>
             <div class="field button-field">
               <center><input 
-              class="btn btn-primary
+              
               type="submit"
               name="submit"
               value="Sign up"></center>
               
             </div>
           </form>
-          <div class="form-link">
-            <span
-              >Already have an account?
-              <a href="Login.php" class="link login-link">Log In</a></span
-            >
-          </div>
-        </div>
-        <div class="line"></div>
-        <div class="media-options">
-          <a href="#" class="field facebook">
-            <i class="bx bxl-facebook facebook-icon"></i>
-            <span>Login with Facebook</span>
-          </a>
-        </div>
-        <div class="media-options">
-          <a href="#" class="field google">
-            <img src="../Photos/google.png" alt="Google" class="google-img" />
-            <span>Login with Google</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-
-    <?php
+          <?php
 
       require_once 'functions/dbconf.php';
 
@@ -135,6 +111,31 @@
       
     
     ?>
+          <div class="form-link">
+            <span
+              >Already have an account?
+              <a href="Login.php" class="link login-link">Log In</a></span
+            >
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="media-options">
+          <a href="#" class="field facebook">
+            <i class="bx bxl-facebook facebook-icon"></i>
+            <span>Login with Facebook</span>
+          </a>
+        </div>
+        <div class="media-options">
+          <a href="#" class="field google">
+            <img src="../Photos/google.png" alt="Google" class="google-img" />
+            <span>Login with Google</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    
 
     <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
   </body>

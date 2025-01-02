@@ -39,7 +39,53 @@ function navbar(){
     ';
 }
 
+function footer(){
 
+    echo '
+    <footer class="bg-light text-center py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled">
+              <li>Email: contact@rhythmwave.com</li>
+              <li>Phone: (123) 456-7890</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>
+              RhythmWave is an innovative online platform offering seamless
+              music discovery, streaming, and social interaction. It empowers
+              independent artists to share their work, while providing users
+              with personalized music experiences.
+
+              <!--RhythmWave is your ultimate destination for all things music, from
+              learning to listening and beyond!-->
+            </p>
+          </div>
+        </div>
+        <hr />
+        <p>&copy; 2024 RhythmWave. All Rights Reserved.</p>
+      </div>
+    </footer>';
+}
 
 
 ?>

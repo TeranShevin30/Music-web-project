@@ -75,7 +75,7 @@
               <center><input 
               class="btn btn-primary
               type="submit"
-              name="sumbit"
+              name="submit"
               value="Sign up"></center>
               
             </div>
@@ -106,7 +106,31 @@
 
     <?php
 
-      require_once '';
+      require_once 'functions/dbconf.php';
+
+
+      try {
+        
+        if(isset($_POST['submit'])){
+          $email = $_POST['email'];
+          $regno = $_POST['regno'];
+          $pword = $_POST['password'];
+          $confpword = $_POST['confpassword'];
+
+          if($pword == $confpword){
+            $hash = password_hash($pword,PASSWORD_DEFAULT);
+
+            $sql = "INSERT INTO users (email,regno,password) VALUES ('$email','$regno','$hash')";
+
+            $result=mysqli_query($connect,$sql);
+          }
+        }
+
+      } catch (Exception $e) {
+        // echo "<script>
+        //   document.alert("Error")
+        // </script>";
+      }
 
       
     

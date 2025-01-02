@@ -19,7 +19,6 @@
       require_once 'functions/nav.php';
       navbar();
       ?>
-
     </div>
     <section id="Home">
       <nav></nav>

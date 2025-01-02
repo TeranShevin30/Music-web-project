@@ -12,7 +12,7 @@
         die("connection failed");
     }
     else {
-        echo "connected successfully";
+        //echo "connected successfully";
     }
     
 

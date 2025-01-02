@@ -37,12 +37,13 @@
       <div class="">
         <div class="form-content">
           <header class="signhead">Sign up</header>
-          <form action="#">
+          <form action=" " method="post">
             <div class="field input-field">
               <input
                 type="email"
                 placeholder="University Email"
                 class="input"
+                name="email"
               />
             </div>
             <div class="field input-field">
@@ -50,6 +51,7 @@
                 type="Regno"
                 placeholder="Registration number"
                 class="input"
+                name="regno"
               />
             </div>
             <div class="field input-field">
@@ -57,6 +59,7 @@
                 type="password"
                 placeholder="Create password"
                 class="password"
+                name="password"
               />
             </div>
             <div class="field input-field">
@@ -64,11 +67,17 @@
                 type="password"
                 placeholder="Confirm password"
                 class="password"
+                name="confpassword"
               />
               <i class="bx bx-hide eye-icon"></i>
             </div>
             <div class="field button-field">
-              <button>Sign up</button>
+              <center><input 
+              class="btn btn-primary
+              type="submit"
+              name="sumbit"
+              value="Sign up"></center>
+              
             </div>
           </form>
           <div class="form-link">
@@ -93,6 +102,13 @@
         </div>
       </div>
     </section>
+
+
+    <?php
+
+      
+    
+    ?>
 
     <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
   </body>

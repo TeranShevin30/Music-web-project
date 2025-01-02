@@ -174,6 +174,7 @@
         </div>
       </div>
     </section>
+    
     <div>
     <?php
       require_once 'functions/nav.php';

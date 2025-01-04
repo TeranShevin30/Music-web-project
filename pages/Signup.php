@@ -17,7 +17,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="Index.php">Home</a>
+            <a class="nav-link" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Learn">Learn</a>
@@ -114,7 +114,7 @@
           <div class="form-link">
             <span
               >Already have an account?
-              <a href="Login.php" class="link login-link">Log In</a></span
+              <a href="login.php" class="link login-link">Log In</a></span
             >
           </div>
         </div>

@@ -22,10 +22,10 @@ function navbar(){
             <a class="nav-link" href="#Contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Signup.php">Sign Up</a>
+            <a class="nav-link" href="signup.php">Sign Up</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Login.php">Log In</a>
+            <a class="nav-link" href="login.php">Log In</a>
           </li>
         </ul>
         <form class="d-flex ms-3" role="search">

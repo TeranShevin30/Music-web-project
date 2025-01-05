@@ -98,7 +98,9 @@
                   </script>";
             }
             else{
-              echo "<script></script>"
+              echo "<script>
+                  alert(''Incorrect Password/userID');
+              </script>"
             }
           
 

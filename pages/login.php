@@ -79,6 +79,34 @@
       </div>
     </section>
 
+    <?php
+
+        if(isset($_POST['Login'])){
+            $email = $_POST['email'];
+            $password = $_POST['password'];
+
+            $sql = "SELECT password FROM users WHERE email='$email'";
+            $result = mysqli_query($connect,$sql);
+
+            $row = mysqli_fetch_assoc($result);
+
+            $hash = $row['password'];
+            
+            if(password_verify($password,$hash)){
+              echo "<script>
+                      window.location.href = 'index.php'; 
+                  </script>";
+            }
+            else{
+              echo "<script></script>"
+            }
+          
+
+        }
+
+
+    ?>
+
     <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

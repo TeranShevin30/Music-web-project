@@ -39,18 +39,20 @@
       <div class="">
         <div class="form-content">
           <header class="loghead">Log In</header>
-          <form action="#">
+          <form action=" " method="POST">
             <div class="field input-field">
               <input
                 type="email"
                 placeholder="University Email"
                 class="input"
+                name="email"
               />
             </div>
             <div class="field input-field">
-              <input type="password" placeholder="Password" class="password" />
+              <input type="password" placeholder="Password" class="password" name="password"/>
             </div>
             <div class="field button-field">
+              <input type="submit" value="Log In" class="btn btn-primary" name="Login">
               <button>Log In</button>
             </div>
           </form>

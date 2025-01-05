@@ -81,6 +81,8 @@
 
     <?php
 
+      require_once 'functions/dbconf.php';
+
         if(isset($_POST['Login'])){
             $email = $_POST['email'];
             $password = $_POST['password'];

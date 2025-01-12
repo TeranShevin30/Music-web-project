@@ -53,7 +53,6 @@
             </div>
             <div class="field button-field">
               <input type="submit" value="Log In" class="btn btn-primary" name="Login">
-              <button>Log In</button>
             </div>
           </form>
           <div class="form-link">

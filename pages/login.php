@@ -102,7 +102,7 @@
             else{
               echo "<script>
                   alert(''Incorrect Password/userID');
-              </script>"
+              </script>";
             }
           
 

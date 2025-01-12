@@ -134,8 +134,11 @@
       </div>
     </section>
 
-
-    
+    <?php
+      require_once 'functions/nav.php';
+      footer();
+    ?>
+    </div>
 
     <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
   </body>

@@ -34,7 +34,7 @@
         </ul>
       </div>
     </nav>
-    <!-- Signup Form -->
+    <!-- Login Form -->
     <section class="box">
       <div class="">
         <div class="form-content">

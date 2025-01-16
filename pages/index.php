@@ -127,11 +127,10 @@
             <div class="card h-100">
               <img src="../Photos/P1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Mr.Jason</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                Leads a strategic vision, making high-level decisions and ensuring growth, 
+                development, and alignment with the mission and goals.
                 </p>
               </div>
               <div class="card-footer">
@@ -143,10 +142,11 @@
             <div class="card h-100">
               <img src="../Photos/P2.webp" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Ms.Emily</h5>
                 <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
+                Handles administrative duties, including communication, 
+                meeting coordination, and documentation, 
+                ensuring the smooth operation of the internal processes.
                 </p>
               </div>
               <div class="card-footer">
@@ -158,11 +158,11 @@
             <div class="card h-100">
               <img src="../Photos/P3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Ms.Gemili</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
+                Manages the financial aspects, including budgeting, 
+                accounting, and financial reporting, 
+                ensuring the website operates within its financial means and resources.
                 </p>
               </div>
               <div class="card-footer">

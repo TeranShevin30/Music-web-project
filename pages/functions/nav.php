@@ -22,6 +22,9 @@ function navbar(){
             <a class="nav-link" href="#Contact">Contact</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="photos.php">Photos</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="signup.php">Sign Up</a>
           </li>
           <li class="nav-item">

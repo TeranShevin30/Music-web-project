@@ -242,12 +242,12 @@ form button:hover {
 .card-footer {
   text-align: center;
   font-size: 1rem;
-  color: #6c757d;
+  color: #dee3e7;
 }
 
 /* Footer Styles */
 footer {
-  background-color: #26303a;
+  background-color: #44586c;
   padding: 40px 0;
 }
 
@@ -276,7 +276,7 @@ footer .list-unstyled a:hover {
 
 footer p {
   font-size: 1rem;
-  color: #a0bbd2;
+  color: #aec0d1;
 }
 
 footer hr {
@@ -286,10 +286,10 @@ footer hr {
 
 footer .text-body-secondary {
   font-size: 1rem;
-  color: #6c757d;
+  color: #b1c7db;
 }
 .foot-name {
-  color: #0f0e5a;
+  color: #5e5cd7;
 }
 
 /* Responsive Styles */

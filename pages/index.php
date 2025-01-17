@@ -46,7 +46,7 @@
               <p class="card-text">
                 Learn to master your singing skills with expert lessons.
               </p>
-              <a href="lessons.php" class="btn btn-primary">Go</a>
+              <a href="signup.php" class="btn btn-primary">Go</a>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
               <p class="card-text">
                 Perfect your instrument skills through interactive practices.
               </p>
-              <a href="practices.php" class="btn btn-primary">Go</a>
+              <a href="signup.php" class="btn btn-primary">Go</a>
             </div>
           </div>
         </div>

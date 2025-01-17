@@ -1,6 +1,6 @@
-<?php
-  // Include the navbar and footer functions
-  include('navbar-footer.php');
+<?php  
+      require_once 'functions/nav.php';
+      navbar();
 ?>
 
 <!DOCTYPE html>
@@ -77,7 +77,10 @@
   </div>
 
   <!-- Call the footer function -->
-  <?php footer(); ?>
+  <?php  
+      require_once 'functions/nav.php';
+      footer();
+      ?>
 
   <!-- Bootstrap JS and dependencies -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

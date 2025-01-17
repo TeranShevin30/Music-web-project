@@ -45,7 +45,7 @@ function navbar(){
 function footer(){
 
     echo '
-    <footer class="bg-dark text-center py-4">
+    <footer class="bg-ash text-center py-4">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
